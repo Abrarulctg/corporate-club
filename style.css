@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.car-heading{
+    font-size: 50px;
+}
+.car-btn{
+    margin-bottom: 100px;
+}
+.carousel-indicators li{
+    height:14px;
+    width: 14px;
+    border-radius: 100%;
+}
+.carousel-indicators .active{
+    background-color: tomato;
+}
+
+.our-service{
+    background-color: rgb(245, 245, 245);
+}
+
+.content-title {
+    font-size: 35px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 18px;
+    
+}
+.content-title:after{
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 135px;
+    background: rgb(1, 194, 1) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content-title-para{
+    margin-bottom: 60px;
+}
+
+.card{
+    border:none;
+    padding:10px;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+.read-more{
+    background-color: white;
+    border:0;
+    color:rgb(2, 189, 2);
+    font-weight: 700;
+}
+
+.read-more:hover{
+    text-decoration: underline;
+    
+}
+.col-md-6{
+    padding: 40px;
+}
+.contact-pera{
+    text-align: justify;
+}
